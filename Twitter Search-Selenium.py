@@ -6,7 +6,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import os
-from bs4 import BeautifulSoup as bs
 import time
 
 # Initiates chrome driver which allows your google chrome to be controlled by automated test software
